@@ -1,11 +1,14 @@
-Site,Transmission (M_out/M_in),t (days),Stream order,Ref
-"NE Spain, site and sample median",1.000,0.250,Reaches in 2nd-4th order streams,Casas-Ruiz et al. (2017)
-"Wood Brook, England",0.983,0.091,1st order,Khamis et al. (2021)
-"Site average, small Alaskan streams with natural DOM additions",0.919,0.002,Headwaters (order not given),Fellman et al. (2009)
-"Creeping Swamp, North Carolina, USA",0.360,9.259,3rd,Mulholland (1981)
-"Fort River, Massachusetts, USA",0.960,0.132,4th,Fisher (1977)
-"SE China, TLC, average",0.713,0.886,1st-2nd order,Gong et al. (2021)
-"SE China, YRC, average",0.654,0.526,1st-2nd order,Gong et al. (2021)
-"Glensaugh, Scotland",0.770,0.042,1st order,Demars (2019)
-"Medium river, MA (USA)",0.850,5.000,400 km2 upstream area,Wollheim et al. (2015)
-"Peaty headwater, NE Scotland",0.863,0.210,1st,Dawson et al. (2001)
+Site,Transmission (M_out/M_in),t (days),Stream order,Ref,Exclude_expts
+"NE Spain, site and sample median",1,0.25,Reaches in 2nd-4th order streams,Casas-Ruiz et al. (2017),0
+"Wood Brook, England",0.982608696,0.090980608,1st order,Khamis et al. (2021),0
+"Site average, small Alaskan streams",0.918567795,0.00194604,Headwaters (order not given),Fellman et al. (2009),1
+"Creeping Swamp, North Carolina, USA",0.36,9.259259259,3rd,Mulholland (1981),0
+"Fort River, Massachusetts, USA",0.96,0.132330733,4th,Fisher (1977),0
+"SE China, TLC, average",0.713333333,0.885579968,1st-2nd order,Gong et al. (2021),0
+"SE China, YRC, average",0.654444444,0.526237008,1st-2nd order,Gong et al. (2021),0
+"Glensaugh, Scotland",0.77,0.041666667,1st order,Demars (2019),0
+"Medium river, MA (USA)",0.85,5,400 km2 upstream area,Wollheim et al. (2015),0
+"Peaty headwater, NE Scotland",0.863,0.210172341,1st,Dawson et al. (2001),0
+"Hubbard Brook, USA",0.1,0.208333333,3rd,Dowell (1985),1
+"River Tees, UK",0.415,2.916666667,Likely 4-6 (820 km2 catchment),Moody et al. (2013),0
+"Trout Beck, UK",0.71,0.179166667,3rd,Moody et al. (2016),0

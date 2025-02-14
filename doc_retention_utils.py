@@ -2,24 +2,25 @@ import numpy as np
 from lmfit import Model
 from scipy.stats import chi2
 from lmfit import Model
+from sklearn.metrics import r2_score, mean_absolute_error
 
 
-def transmission_k_constant(tau, k=1):
+def transmission_k_constant(tau, k=0.5):
     """Model assuming exponential decay with constant k"""
     return np.exp(-k * tau)
 
 
-def transmission_k_as_func_of_tau(tau, p=1, m=-0.5):
+def transmission_k_as_func_of_tau(tau, p=0.5, m=-0.5):
     """Model assuming exponential decay with k=f(t)"""
     return np.exp(-p * (tau ** (m + 1)))
 
 
-def transmission_sigma_constant(tau, sigma=1):
+def transmission_sigma_constant(tau, sigma=0.5):
     """Vollenweider model, constant sigma"""
     return 1 / (1 + (sigma * tau))
 
 
-def transmission_sigma_as_func_of_tau(tau, k=1, m=-0.5):
+def transmission_sigma_as_func_of_tau(tau, k=0.5, m=-0.5):
     """Vollenweider model, sigma=f(tau)"""
     return 1 / (1 + (k * (tau ** (1 + m))))
 
@@ -91,14 +92,40 @@ def calculate_mae_and_mbd(model, data, x_col, y_col):
     # Ensure the lengths of observed and predicted are the same
     if len(observed) != len(predicted):
         raise ValueError(f"Length mismatch: observed has {len(observed)} elements, predicted has {len(predicted)} elements")
-    
+
     # Calculate the errors
     errors = observed - predicted
-    
+
     # Calculate the mean absolute error (MAE)
     mae = np.mean(np.abs(errors))
-    
+
     # Calculate the mean bias deviation (MBD)
     mbd = np.mean(errors)
-    
+
     return mae, mbd
+
+
+def rs_mae(s1_obs, s2_pred, model_name):
+    r2 = r2_score(s1_obs, s2_pred)
+    mae = mean_absolute_error(s1_obs, s2_pred)
+    print(f"{model_name}:")
+    print("R2:", np.round(r2, 2), "MAE:", np.round(mae, 2))
+
+
+def calculate_bic(obs_s, pred_s, num_params):
+    """
+    Calculate Bayesian Information Criterion (BIC).
+    
+    Parameters:
+    df (pd.DataFrame): DataFrame containing the data.
+    obs_col (str): Column name for observations.
+    pred_col (str): Column name for predictions.
+    num_params (int): Number of parameters in the model.
+    
+    Returns:
+    float: BIC value.
+    """
+    n = len(obs_s)
+    residual_sum_of_squares = np.sum((obs_s - pred_s) ** 2)
+    bic = n * np.log(residual_sum_of_squares / n) + num_params * np.log(n)
+    print(bic)
