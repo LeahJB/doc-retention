@@ -1,0 +1,93 @@
+Site,Type,tau,mo_mi,Source
+1,catchment,1.4,0.6299999940758321,C2016
+2,catchment,0.5,0.6800000090521496,C2016
+3,catchment,0.5,0.6899999561096755,C2016
+4,catchment,0.5,0.5599999637416487,C2016
+5,catchment,2.6,0.5300000633010676,C2016
+6,catchment,1.0,0.6500000397100965,C2016
+7,catchment,2.4,0.5100000740845259,C2016
+8,catchment,5.6,0.3899996333449659,C2016
+9,catchment,2.1,0.429999963576649,C2016
+10,catchment,2.0,0.4899998666599759,C2016
+11,catchment,0.4,0.6799999842321497,C2016
+12,catchment,0.6,0.5299999472310665,C2016
+13,catchment,1.3,0.4999999765299732,C2016
+14,catchment,2.4,0.4800001493185194,C2016
+15,catchment,3.2,0.4400001584307538,C2016
+16,catchment,3.8,0.38000013043947056,C2016
+17,catchment,8.4,0.23000026083370448,C2016
+18,catchment,2.1,0.4400000138907255,C2016
+19,catchment,2.5,0.30000006879778873,C2016
+20,catchment,3.1,0.37999996399944985,C2016
+21,catchment,13.5,0.2899993216912623,C2016
+Cheesapeake bay,estuary,0.97260274,0.5000000476823486,C2016
+Gironde,estuary,1.5,0.7126847090873492,C2016
+Hudson261-44 km,river,0.148356164,0.9120812106452647,C2016
+Kryckland,river,0.005479452,0.9976000006388024,C2016
+Roaring brook,river,0.03191672933333333,0.6404999919801331,C2016
+Ekojarvi,lake,0.07,0.9,E2017
+Røynelandsvatn,lake,0.1,0.86,E2017
+Lundetjenn,lake,0.1,0.99,E2017
+Black Esk,reservoir,0.12,0.79,E2017
+Gäddtjärn,lake,0.13,0.78,E2017
+Alinen Rautjarvi,lake,0.13,0.83,E2017
+Burr Oak,reservoir,0.18,0.69,E2017
+Langtjern,lake,0.183333333,0.92,E2017
+Taylorsville,reservoir,0.23,0.96,E2017
+Cone Pond,lake,0.25,0.44999999999999996,E2017
+Kinder,reservoir,0.28,0.78,E2017
+Sandvatn,lake,0.32,0.65,E2017
+Glenlatterach,reservoir,0.34,0.96,E2017
+Skervatjern,lake,0.38,0.55,E2017
+Savalbeg,lake,0.39,0.51,E2017
+Shingobee,lake,0.4,0.94,E2017
+Buffalo Pound,lake,0.7,0.56,E2017
+Plešné,lake,0.7,0.5700000000000001,E2017
+Friskjön,lake,0.72,0.53,E2017
+Lake 225,lake,0.9,0.79,E2017
+Stora Hästevatten N,lake,0.92,0.33999999999999997,E2017
+Bret,lake,1.0,0.62,E2017
+Lilla Hästevatten,lake,1.1,0.47,E2017
+Stora Hästevatten S,lake,1.22,0.54,E2017
+Diefenbaker,reservoir,1.3,0.55,E2017
+Lake 221,lake,1.4,0.77,E2017
+Conwy,lake,1.53,0.51,E2017
+Alturas,lake,1.59,0.99,E2017
+?ertovo,lake,1.6,0.63,E2017
+Crosson,lake,1.64,0.62,E2017
+Gårdsjön,lake,1.66,0.27,E2017
+Lake 303,lake,1.7,0.6599999999999999,E2017
+Gaffeln,lake,1.72,0.5700000000000001,E2017
+Dickie,lake,1.88,0.45999999999999996,E2017
+Lake 222,lake,1.9,0.62,E2017
+Chub,lake,2.1,0.5900000000000001,E2017
+Lake 114,lake,2.1,0.53,E2017
+Ørsdalsvatnet,lake,2.49,0.5700000000000001,E2017
+Paijanne,lake,2.5,0.78,E2017
+Kuohijarvi,lake,2.55,0.5900000000000001,E2017
+Red Chalk,lake,2.61,0.63,E2017
+Mälaren,lake,2.64,0.74,E2017
+Lake 304,lake,2.7,0.6799999999999999,E2017
+Harp,lake,3.2,0.5800000000000001,E2017
+Lake 227,lake,3.9,0.69,E2017
+Plastic,lake,3.95,0.30000000000000004,E2017
+Biwa,lake,5.5,0.96,E2017
+Blue Chalk,lake,5.67,0.41000000000000003,E2017
+Lake 226,lake,5.9,0.49,E2017
+Lake 382,lake,6.2,0.55,E2017
+Lake 239,lake,9.2,0.45999999999999996,E2017
+Lake 224,lake,17.4,0.29000000000000004,E2017
+Lake 305,lake,19.3,0.39,E2017
+Superior,lake,170.0,0.16000000000000003,E2017
+Malawi,lake,692.0,0.09999999999999998,E2017
+"NE Spain, site and sample median",river,0.0006849315068493151,1.0,This study
+"Wood Brook, England",river,0.00024926193972602743,0.982608696,This study
+"Creeping Swamp, North Carolina, USA",river,0.02536783358630137,0.36,This study
+"Fort River, Massachusetts, USA",river,0.00036254995342465757,0.96,This study
+"SE China, TLC, average",river,0.002426246487671233,0.713333333,This study
+"SE China, YRC, average",river,0.0014417452273972602,0.654444444,This study
+"Glensaugh, Scotland",river,0.00011415525205479451,0.77,This study
+"Medium river, MA (USA)",river,0.0136986301369863,0.85,This study
+"Peaty headwater, NE Scotland",river,0.0005758146328767123,0.863,This study
+"River Tees, UK",river,0.007990867580821917,0.415,This study
+"Trout Beck, UK",river,0.0004908675808219178,0.71,This study
