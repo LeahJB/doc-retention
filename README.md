@@ -2,7 +2,7 @@
 
 Repository for exploring simple models for predicting DOC transmission across waterbodies (i.e. the proportion of DOC out / in) using water transit time. The main approaches included are exponential decay and a steady state Vollenweider approach. For both of these, we compare models with constant decay constants to models where the decay constant changes with time as k = a t^b.
 
-v1 of this repository includes data and analyses used in L.A. Jackson-Blake & J.E. Sample, "Re-evaluating the Link Between Organic Matter Reactivity and Water Retention Time Across the Aquatic Continuum", submitted to Global Biogeochemistry (subm. 2025).
+v1 of this repository includes data and analyses used in L.A. Jackson-Blake & J.E. Sample, "Re-evaluating the Link Between Organic Matter Reactivity and Water Retention Time Across the Aquatic Continuum", submitted to Global Biogeochemical Cycles (subm. 2025).
 
 The **'data'** folder contains the following data, which form the basis of the analysis:
 
