@@ -170,16 +170,16 @@ def generate_prediction_intervals(model_obj, x, n_samples=1000, add_residual_err
         # Handle multiple parameter case
         y_pred = transmission_sigma_as_func_of_tau(x, **params.valuesdict())
         ci = lmfit.conf_interval(model_obj, result=model_obj)
-        ci_k_l95 = ci['k'][1][1]
-        ci_k_u95 = ci['k'][-2][1]
-        ci_m_l95 = ci['m'][1][1]
-        ci_m_u95 = ci['m'][-2][1]
+        ci_k_l95 = ci['a'][1][1]  # was 'k'
+        ci_k_u95 = ci['a'][-2][1]  # was 'k'
+        ci_m_l95 = ci['b'][1][1]  # was 'm'
+        ci_m_u95 = ci['b'][-2][1]  # was 'm'
 
         y_samples = np.zeros((n_samples, len(x)))
         for i in range(n_samples):
-            k_sample = np.random.uniform(ci_k_l95, ci_k_u95)
-            m_sample = np.random.uniform(ci_m_l95, ci_m_u95)
-            y_samples[i, :] = transmission_sigma_as_func_of_tau(x, k=k_sample, m=m_sample)
+            a_sample = np.random.uniform(ci_k_l95, ci_k_u95)
+            b_sample = np.random.uniform(ci_m_l95, ci_m_u95)
+            y_samples[i, :] = transmission_sigma_as_func_of_tau(x, a=a_sample, b=b_sample)
 
         y_upper = np.max(y_samples, axis=0)
         y_lower = np.min(y_samples, axis=0)

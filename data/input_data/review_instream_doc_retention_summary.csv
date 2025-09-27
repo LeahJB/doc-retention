@@ -1,0 +1,14 @@
+﻿Site,Lat,Lon,Country,Transmission (M_out/M_in),t (days),Stream order,Ref,Exclude_expts,Comment
+"Fluvià River, NE Spain",42.1892,2.7673,Spain,1,0.25,Reaches in 2nd-4th order streams,Casas-Ruiz et al. (2017),0,"Median of 12 sites, 10 samples/site"
+"Wood Brook, England",52.800938,-2.305389,UK,0.982608696,0.090980608,2nd order,Khamis et al. (2021),0,
+"Creeping Swamp, North Carolina",35.415,-77.193,USA,0.36,9.259259259,3rd,Mulholland (1981),0,Coordinates are approximate
+"Fort River, Massachusetts",42.336,-72.574,USA,0.96,0.132330733,4th,Fisher (1977),0,Coordinates are approximate
+"Tianmu Lake catchment, SE China",31.222847,119.391676,China,0.713333333,0.885579968,1st-2nd order,Gong et al. (2021),0,"Average 3 sites, 2 samples/site"
+"Yankou Reservoir catchment, SE China",29.314821,119.90725,China,0.654444444,0.526237008,1st-2nd order,Gong et al. (2021),0,"Average 3 sites, 3 samples/site"
+"Glensaugh, Scotland",56.906198,-2.558902,UK,0.77,0.041666667,1st order,Demars (2019),0,
+"River Ipswich, Massachusetts, USA",42.677269,-70.837892,USA,0.85,5,4th,Wollheim et al. (2015),0,Measurements during baseflow conditions. Coordinates are approximate.
+"Brocky Burn, NE Scotland",56.94171,-2.63811,UK,0.863,0.210172341,1st,Dawson et al. (2001),0,
+"River Tees, England",54.5187,-1.60243,UK,0.415,2.916666667,4th-6th,Moody et al. (2013),0,
+"Trout Beck, England",54.69675,-2.37526,UK,0.71,0.179166667,3rd,Moody et al. (2016),0,Average over 20 years
+"Soil and salmon carcass leachate additions, McGinnis Creek watershed, SE Alaska",,,USA,0.918567795,0.00194604,1st-3rd,Fellman et al. (2009),1,
+"Leaf litter leachate additions, Hubbard Brook, New Hampshire, USA ",,,USA,0.1,0.208333333,3rd,Dowell (1985),1,

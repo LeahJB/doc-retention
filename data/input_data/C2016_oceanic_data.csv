@@ -1,0 +1,6 @@
+Type,Site,Lat,Lon,tau,mo_mi,Ref
+Ocean,Arctic (Beaufort Gyre),81.308321,-147.355961,12.5,0.29745329363693873,Hansell et al. 2004
+Ocean,Arctic,83.194896,105.769039,30.0,0.9104477896160742,Anderson et al.1998
+Ocean,Greenland to North Atlantic,63.937373,-34.127199,80.0,0.9083332793355545,"Hansell and Carlson, 1998"
+Ocean,Nordic seas,57.30279,2.981872,128.0,0.9766763927906491,Jeansson et al. 2011
+Ocean,Greenland to North Atlantic,63.937373,-34.127199,595.0,0.8144578948511246,"Hansell and Carlson, 1998"
